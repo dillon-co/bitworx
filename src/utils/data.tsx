@@ -2,15 +2,38 @@ import WebSocket from "isomorphic-ws";
 import * as bitcoin from "bitcoinjs-lib";
 import { JobPost } from "../models/state";
 import * as nobleSecp256k1 from "noble-secp256k1"
+import {Buffer} from 'buffer';
+import { Signer, SignerAsync, ECPairInterface, ECPairFactory, ECPairAPI, TinySecp256k1Interface } from 'ecpair';
+
+// You need to provide the ECC library. The ECC library must implement 
+// all the methods of the `TinySecp256k1Interface` interface.
+// const tinysecp: TinySecp256k1Interface = require('tiny-secp256k1');
+// const ECPair: ECPairAPI = ECPairFactory(tinysecp);
+
+
 
 const USER_KEY = 'user';
 
 class Data {
     _relay = "wss://relay.nostr.info";
     _privKey = 'asdfasdfasdf'
+    _bitworxPublicKey = "bc1qp0x5nxjlaytwdusk36svx94qlg3hrlwcksd7sh"
     // socket: any = null
     constructor() {
         this._privKey = 'asdfasdfasdf'
+        // console.log(ECPair.makeRandom())
+    }
+
+    createMultisig(talentWallet: string, companyWallet:string) {
+        const pubkeys = [talentWallet,
+                         companyWallet,
+                         this._bitworxPublicKey
+        ].map(hex => Buffer.from(hex, 'hex'));
+        const script = bitcoin.payments.p2ms({ m: 2, pubkeys })
+        const { address } = bitcoin.payments.p2sh({
+          redeem: script,
+        });
+        // console.log(address)
     }
     
     async sha256(password: string) {
