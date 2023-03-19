@@ -160,6 +160,451 @@ function DefaultView() {
             </div>
           </div>
         </section>
+        <>
+  <section className="section_layout156">
+    <div className="padding-global">
+      <div className="container-large">
+        <div className="padding-section-large margin-top margin-0">
+          <div className="layout156_component">
+            <div className="layout156_image-wrapper">
+              <img
+                src="https://uploads-ssl.webflow.com/63f55220e76aa41c96709c83/64174ba26c79a88cc9b48114_Image.webp"
+                loading="lazy"
+                sizes="90vw"
+
+                alt=""
+                className="layout156_image"
+              />
+            </div>
+            <div className="margin-top margin-xxlarge">
+              <div className="text-align-center">
+                <div className="max-width-large">
+                  <div className="margin-bottom margin-small">
+                    <h3>
+                      Welcome to a truly human marketplace, powered by you
+                    </h3>
+                  </div>
+                  <p className="text-size-medium">
+                    Find talent anywhere in the world or post your own jobs
+                  </p>
+                  <div className="button-wrapper">
+                    <a
+                      href="#"
+                      className="button is-orange margin-right margin-small w-button"
+                    >
+                      Find Talent
+                    </a>
+                    <a href="#" className="button is-purple-button w-button">
+                      Find Work
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section className="section_layout1">
+    <div className="padding-global">
+      <div className="container-large">
+        <div className="padding-section-large">
+          <div className="w-layout-grid layout1_component">
+            <div className="layout1_content">
+              <div className="margin-bottom margin-xsmall">
+                <div className="text-weight-semibold">Step 1</div>
+              </div>
+              <div className="margin-bottom margin-small">
+                <h2>Find a freelancer or post your own job listing</h2>
+              </div>
+              <p className="text-size-medium">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. Duis
+                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                commodo diam libero vitae erat.
+              </p>
+            </div>
+            <div className="layout1_image-wrapper">
+              <img
+                src="https://uploads-ssl.webflow.com/63f55220e76aa41c96709c83/64174d7bf5b3435809482a0e_Frame%204.webp"
+                loading="lazy"
+                sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 42vw"
+
+                alt=""
+                className="layout1_image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section className="section_layout1">
+    <div className="padding-global">
+      <div className="container-large">
+        <div className="padding-section-large">
+          <div className="w-layout-grid layout1_component">
+            <div
+              id="w-node-acb6c5b5-a162-e111-ae6d-931afd6e03d7-bd709c8b"
+              className="layout1_image-wrapper"
+            >
+              <img
+                src="https://uploads-ssl.webflow.com/63f55220e76aa41c96709c83/64174dfdd18f1bb7fb841f91_Frame%205.webp"
+                loading="lazy"
+                sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 42vw"
+ 
+                alt=""
+                className="layout1_image"
+              />
+            </div>
+            <div className="layout1_content">
+              <div className="margin-bottom margin-xsmall">
+                <div className="text-weight-semibold">Step 2</div>
+              </div>
+              <div className="margin-bottom margin-small">
+                <h2>Lock your bitcoin up until the job is complete</h2>
+              </div>
+              <p className="text-size-medium">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. Duis
+                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                commodo diam libero vitae erat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section className="section_layout1">
+    <div className="padding-global">
+      <div className="container-large">
+        <div className="padding-section-large">
+          <div className="w-layout-grid layout1_component">
+            <div className="layout1_content">
+              <div className="margin-bottom margin-xsmall">
+                <div className="text-weight-semibold">Step 3</div>
+              </div>
+              <div className="margin-bottom margin-small">
+                <h2>Sign the contract and release the funds</h2>
+              </div>
+              <p className="text-size-medium">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique. Duis
+                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                commodo diam libero vitae erat.
+              </p>
+            </div>
+            <div className="layout1_image-wrapper">
+              <img
+                src="https://uploads-ssl.webflow.com/63f55220e76aa41c96709c83/64174e30d18f1b3baf842734_Frame%207.webp"
+                loading="lazy"
+                sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 42vw"
+
+                alt=""
+                className="layout1_image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section className="section_layout156_v2">
+    <div className="padding-global">
+      <div className="container-large">
+        <div className="padding-section-large margin-top margin-0">
+          <div className="layout156_component">
+            <div className="text-align-center">
+              <div className="max-width-large">
+                <div className="margin-bottom margin-small">
+                  <h3>Crowdfunding with Bitworx</h3>
+                </div>
+                <p className="text-size-medium">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique. Duis
+                  cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                  commodo diam libero vitae erat.
+                </p>
+                <div className="button-wrapper">
+                  <a href="#" className="button is-orange w-button">
+                    Learn More
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="margin-top margin-medium">
+              <div className="layout156_image-wrapper">
+                <img
+                  src="https://uploads-ssl.webflow.com/63f55220e76aa41c96709c83/64174ed7f5b3430ab2484edf_Frame%208.webp"
+                  loading="lazy"
+                  sizes="90vw"
+                  alt=""
+                  className="layout156_image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section className="section_pricing22">
+    <div className="padding-global hide-tablet">
+      <div className="container-large">
+        <div className="padding-section-large">
+          <div className="margin-bottom margin-xxlarge">
+            <div className="text-align-center">
+              <div className="max-width-large align-center">
+                <div className="margin-bottom margin-small">
+                  <h2>Pricing plan</h2>
+                </div>
+                <p className="text-size-medium">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="pricing22_component">
+            <div className="w-layout-grid pricing22_top-row">
+              <div className="pricing22_empty-space" />
+              <div
+                id="w-node-_5dde9d31-c927-7d7f-3188-8bf4d850728f-bd709c8b"
+                className="pricing22_top-row-content"
+              >
+                <img
+                  src="https://uploads-ssl.webflow.com/63f55220e76aa41c96709c83/641750587b8e01781129097a_bitworx.svg"
+                  loading="lazy"
+                  alt=""
+                  className="comparison-logo"
+                />
+              </div>
+              <div className="pricing22_top-row-content">
+                <img
+                  src="https://uploads-ssl.webflow.com/63f55220e76aa41c96709c83/64174fe500ca744498a7671d_Fiverr-Logo.svg"
+                  loading="lazy"
+                  id="w-node-_6feeb2e8-66d2-6d59-9e65-6f88a79fdd9c-bd709c8b"
+                  alt=""
+                  className="comparison-logo"
+                />
+              </div>
+              <div className="pricing22_top-row-content">
+                <img
+                  src="https://uploads-ssl.webflow.com/63f55220e76aa41c96709c83/64174fe55aac654a5297eab1_2560px-Upwork-logo.svg"
+                  loading="lazy"
+                  alt=""
+                  className="comparison-logo upwork"
+                />
+              </div>
+            </div>
+            <div className="pricing22_heading-row">
+              <div className="heading-style-h6">Features</div>
+            </div>
+            <div className="w-layout-grid pricing22_row background-color-gray">
+              <div className="pricing22_feature">
+                <div>Profile Pages</div>
+              </div>
+              <div className="pricing22_row-content">
+                <img
+                  src="https://uploads-ssl.webflow.com/63f55220e76aa41c96709c83/63f55220e76aa41805709cb5_icon_check.svg"
+                  loading="lazy"
+                  alt=""
+                  className="icon-1x1-xsmall"
+                />
+              </div>
+              <div className="pricing22_row-content">
+                <img
+                  src="https://uploads-ssl.webflow.com/63f55220e76aa41c96709c83/63f55220e76aa41805709cb5_icon_check.svg"
+                  loading="lazy"
+                  alt=""
+                  className="icon-1x1-xsmall"
+                />
+              </div>
+              <div className="pricing22_row-content">
+                <img
+                  src="https://uploads-ssl.webflow.com/63f55220e76aa41c96709c83/63f55220e76aa41805709cb5_icon_check.svg"
+                  loading="lazy"
+                  alt=""
+                  className="icon-1x1-xsmall"
+                />
+              </div>
+            </div>
+            <div className="w-layout-grid pricing22_row">
+              <div className="pricing22_feature">
+                <div>Talent Reviews</div>
+              </div>
+              <div className="pricing22_row-content">
+                <img
+                  src="https://uploads-ssl.webflow.com/63f55220e76aa41c96709c83/63f55220e76aa41805709cb5_icon_check.svg"
+                  loading="lazy"
+                  alt=""
+                  className="icon-1x1-xsmall"
+                />
+              </div>
+              <div className="pricing22_row-content">
+                <img
+                  src="https://uploads-ssl.webflow.com/63f55220e76aa41c96709c83/63f55220e76aa41805709cb5_icon_check.svg"
+                  loading="lazy"
+                  alt=""
+                  className="icon-1x1-xsmall"
+                />
+              </div>
+              <div className="pricing22_row-content">
+                <img
+                  src="https://uploads-ssl.webflow.com/63f55220e76aa41c96709c83/63f55220e76aa41805709cb5_icon_check.svg"
+                  loading="lazy"
+                  alt=""
+                  className="icon-1x1-xsmall"
+                />
+              </div>
+            </div>
+            <div className="w-layout-grid pricing22_row background-color-gray">
+              <div className="pricing22_feature">
+                <div>Escrowed Payments</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>Via discreet law contract</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>Trust based</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>Trust based</div>
+              </div>
+            </div>
+            <div className="w-layout-grid pricing22_row">
+              <div className="pricing22_feature">
+                <div>Countries</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>Global and permissionless</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>180+ Countries</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>190+ Countries</div>
+              </div>
+            </div>
+            <div className="pricing22_heading-row margin">
+              <div className="heading-style-h6">Pricing</div>
+            </div>
+            <div className="w-layout-grid pricing22_row background-color-gray">
+              <div className="pricing22_feature">
+                <div>Client Service Fees</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>Free</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>5%</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>5.5%</div>
+              </div>
+            </div>
+            <div className="w-layout-grid pricing22_row">
+              <div className="pricing22_feature">
+                <div>Provider Service Fees</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>Free</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>20%</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>20%</div>
+              </div>
+            </div>
+            <div className="w-layout-grid pricing22_row background-color-gray">
+              <div className="pricing22_feature">
+                <div>Crowdfunding Contribution</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>1.5%</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>N/A</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>N/A</div>
+              </div>
+            </div>
+            <div className="w-layout-grid pricing22_row">
+              <div className="pricing22_feature">
+                <div>Transaction Fee</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>Miner fees</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>1-3%</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>1-3%</div>
+              </div>
+            </div>
+            <div className="w-layout-grid pricing22_row background-color-gray">
+              <div className="pricing22_feature">
+                <div>Billing Methods</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>Bitcoin</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>Credit Card, Bank transfer</div>
+              </div>
+              <div className="pricing22_row-content">
+                <div>Credit Card, PayPal</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section className="section_layout-donation">
+    <div className="padding-global">
+      <div className="container-large">
+        <div className="padding-section-large">
+          <div className="w-layout-grid layout1_component">
+            <div className="layout1_content">
+              <div className="margin-bottom margin-small">
+                <h2>Donate sats to help support the development of bitworx</h2>
+              </div>
+              <p className="text-size-medium">
+                Bitworx is a fully not for profit project. We don’t make a
+                single sat from transactions to ensure a truly peer to peer
+                marketplace powered by the hardest currency to ever exist.
+                Please consider donating some extra sats to help support
+                development
+              </p>
+              <a
+                href="#"
+                className="button is-orange margin-top margin-small w-button"
+              >
+                Donate
+              </a>
+            </div>
+            <div className="layout1_image-wrapper">
+              <img
+                src="https://uploads-ssl.webflow.com/63f55220e76aa41c96709c83/6417539f6288393f8332c7c6_donate.webp"
+                loading="lazy"
+                sizes="(max-width: 479px) 93vw, (max-width: 767px) 90vw, (max-width: 991px) 43vw, 42vw"
+
+                alt=""
+                className="layout1_image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</>
+
       </main>
       </div></>
     )
