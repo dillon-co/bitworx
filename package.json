@@ -9,6 +9,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/bitcoinjs-lib": "^5.0.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.16",
     "@types/react": "^18.0.28",
@@ -21,6 +22,7 @@
     "ecpair": "^2.1.0",
     "isomorphic-ws": "^5.0.0",
     "noble-secp256k1": "^1.2.14",
+    "patch-package": "^6.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
@@ -35,6 +37,7 @@
     "ws": "^8.13.0"
   },
   "scripts": {
+    "postinstall": "patch-package",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
