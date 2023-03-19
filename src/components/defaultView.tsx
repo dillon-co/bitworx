@@ -75,9 +75,9 @@ function DefaultView() {
                     <div className="blog67_heading">
                       <div className="max-width-large">
                         <div className="margin-bottom margin-xsmall">
-                          <h2>Short heading goes here</h2>
+                          <h2>Explore the marketplace</h2>
                         </div>
-                        <p className="text-size-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                        <p className="text-size-medium">Find creators to power your next project </p>
                       </div>
                     </div>
 
@@ -219,10 +219,7 @@ function DefaultView() {
                 <h2>Find a freelancer or post your own job listing</h2>
               </div>
               <p className="text-size-medium">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique. Duis
-                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
-                commodo diam libero vitae erat.
+              Browse through our diverse network of talented freelancers or create your own job listing to attract the perfect match for your project needs.
               </p>
             </div>
             <div className="layout1_image-wrapper">
@@ -266,10 +263,7 @@ function DefaultView() {
                 <h2>Lock your bitcoin up until the job is complete</h2>
               </div>
               <p className="text-size-medium">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique. Duis
-                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
-                commodo diam libero vitae erat.
+              Safeguard your bitcoin by placing it into a secure escrow account, ensuring payment is held until the job is completed to your satisfaction.
               </p>
             </div>
           </div>
@@ -290,10 +284,7 @@ function DefaultView() {
                 <h2>Sign the contract and release the funds</h2>
               </div>
               <p className="text-size-medium">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique. Duis
-                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
-                commodo diam libero vitae erat.
+              Finalize the agreement by signing a digital contract, and once the project is successfully delivered, release the funds to the freelancer with confidence.
               </p>
             </div>
             <div className="layout1_image-wrapper">
@@ -322,10 +313,7 @@ function DefaultView() {
                   <h3>Crowdfunding with Bitworx</h3>
                 </div>
                 <p className="text-size-medium">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Suspendisse varius enim in eros elementum tristique. Duis
-                  cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
-                  commodo diam libero vitae erat.
+                With a 2% transaction fee, users gain voting rights based on contributions. Every quarter, members pitch ideas for projects to be crowdfunded by the collected fees, fostering a dynamic ecosystem that promotes growth and shared success.
                 </p>
                 <div className="button-wrapper">
                   <a href="#" className="button is-orange w-button">
@@ -355,13 +343,13 @@ function DefaultView() {
       <div className="container-large">
         <div className="padding-section-large">
           <div className="margin-bottom margin-xxlarge">
-            <div className="text-align-center">
-              <div className="max-width-large align-center">
+            <div className="text-align-left">
+              <div className="max-width-large align-left">
                 <div className="margin-bottom margin-small">
-                  <h2>Pricing plan</h2>
+                  <h2>Ditch the middleman for good</h2>
                 </div>
                 <p className="text-size-medium">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+                Embrace transparent, cost-effective transactions in a decentralized freelancing ecosystem.
                 </p>
               </div>
             </div>

@@ -1,9 +1,82 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import Modal from '@mui/material/Modal';
+import Lottie from "lottie-react";
 
 function ShowTalentListing() {
+
+    const [open, setOpen] = React.useState(false);
+    const [loading, setLoading] = useState(true);
+    const handleOpen = () => {
+        setTimeout(() => {setLoading(false)}, 2500)
+        setOpen(true);
+    }
+    const handleClose = () => setOpen(false);
+    const [animationData, setAnimationData] = useState(null);
+    const style = {
+        position: 'absolute' as 'absolute',
+        top: '50%',
+        left: '50%',
+        transform: 'translate(-50%, -50%)',
+        width: 400,
+        bgcolor: 'background.paper',
+        boxShadow: 24,
+        p: 4,
+        '&:focus': {
+            outline: 'none',
+          }
+      };
+
+
+        useEffect(() => {
+            fetch('https://uploads-ssl.webflow.com/63f55220e76aa41c96709c83/6417757cf5b343f20d4bcb68_353-newspaper-spinner.json')
+            .then(response => response.json())
+            .then(data => setAnimationData(data))
+            .catch(error => console.error('Error fetching Lottie JSON:', error));
+        }, []);
+
     return(
         <>
 <div className="page-wrapper">
+
+<Modal
+  open={open}
+  onClose={handleClose}
+  aria-labelledby="modal-modal-title"
+  aria-describedby="modal-modal-description"
+>
+  <Box sx={style}>
+    {loading && 
+        <Lottie animationData={animationData} loop={true} />
+    }{ !loading &&
+    <>
+        <div className="bitcoin_address">
+                Send <strong>₿</strong> .0003 to the escrow to lock up funds. Once the project is complete both parties will sign and <strong>Joshua Pujol</strong> will recieve payment
+                </div>
+            <div className="qr_wrapper">
+                
+                <img
+                    src="https://uploads-ssl.webflow.com/63f55220e76aa41c96709c83/6416348157aec227e2c843b7_Bitcoin.svg.png"
+                    loading="lazy"
+                    sizes="72px"
+                    
+                    alt=""
+                    className="bitcoin-qr-logo"
+                />
+                <img
+                    src="https://uploads-ssl.webflow.com/63f55220e76aa41c96709c83/6416342d2eb27f781df613e9_download%20(4).png"
+                    loading="lazy"
+                    alt=""
+                    className="image"
+                />
+            </div>
+    </>
+    }
+  </Box>
+</Modal>
+
   <main af-view="job-listing" className="main-wrapper">
     <header className="section_product-header3">
       <div className="padding-global">
@@ -87,7 +160,7 @@ function ShowTalentListing() {
                           </svg>
                         </div>
                       </a>
-                      <a href="#" className="button is-orange w-button">
+                      <a onClick={handleOpen} className="button is-orange w-button">
                         Hire Talent
                       </a>
                     </form>
@@ -330,22 +403,7 @@ function ShowTalentListing() {
                         <strong>Address</strong>:&nbsp;
                         1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
                       </div>
-                      <div className="qr_wrapper">
-                        <img
-                          src="https://uploads-ssl.webflow.com/63f55220e76aa41c96709c83/6416348157aec227e2c843b7_Bitcoin.svg.png"
-                          loading="lazy"
-                          sizes="72px"
-                          
-                          alt=""
-                          className="bitcoin-qr-logo"
-                        />
-                        <img
-                          src="https://uploads-ssl.webflow.com/63f55220e76aa41c96709c83/6416342d2eb27f781df613e9_download%20(4).png"
-                          loading="lazy"
-                          alt=""
-                          className="image"
-                        />
-                      </div>
+
                     </div>
                   </a>
                 </div>
